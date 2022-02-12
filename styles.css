@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ebf800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.siderburn {
+    width: 300px;
+    height: 140px;
+    background-color: #fd6c64;
+    border-left: 30px solid #5AF5b6;
+    border-bottom: 30px solid #5AF5b6;
+    border-right: 30px solid #5AF5b6;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+
+
+}
+
+span {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 13px;
+
+}
+
+
+span:nth-child(13) {
+    opacity: 0;
+}
